@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    display: flex;
+    /* font-size: 18px; */
+   
+    justify-content: space-around;
+
+}
+#nav .mod{
+    text-decoration: none;
+    color: beige;
+}
+
+#details{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(pink,black);
+}
+#details>table{
+     height: 50%;
+     border: 2px solid black;
+    width:25%;
+    font-size:22px;
+    font-weight: bolder;
+    background-color: cadetblue;
+
+}
+#details>table input{
+    height:24px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+#details>table button{
+    height:35px;
+    width: 80px;
+    font-weight: normal;
+    font-size:18px;
+    background-color: black;
+    color: white;
+
+}
+#details>table button:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+/* Users table*/
+
+
+#frame{
+    height:90vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+#frame>.PersonalDetails{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    /* align-items: center; */
+    background: linear-gradient(pink,black);
+}
+#frame>.PersonalDetails>table{
+     height: 50%;
+    width:50%;
+    /* display: contents; */
+    border: 2px solid black;
+    font-size:22px;
+    font-weight: bolder;
+    background-color: gray;
+
+
+}
+#frame>.PersonalDetails>table input{
+    height:24px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+#frame>.PersonalDetails>table button{
+    height:35px;
+    width: 80px;
+    font-weight: normal;
+    font-size:18px;
+    background-color: black;
+    color: white;
+
+}
+#frame>.PersonalDetails>table button:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
